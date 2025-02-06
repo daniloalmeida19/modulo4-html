@@ -9,8 +9,8 @@
 }
 
 html, body {
-    width: 100vw;
-    height: 100vh;
+    width: 100vw; /* largura total*/
+    height: 100vh; /* Altura total*/
     background-color: #233eff;
     background-size: contain;
     background-repeat: no-repeat;
@@ -19,6 +19,6 @@ html, body {
 
 h1 {
     color: white;
-    text-shadow: 2px 2px 0px blue;
+    text-shadow: 2px 2px 0px rgb(25, 25, 73);
     padding: 10px;
 }
