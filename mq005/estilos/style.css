@@ -2,8 +2,44 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body, html {
     background-color: lightgray;
+    text-align: center;
+}
+
+
+header {
+    background-color: #3333339b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header > h1 {
+    padding: 10px;
+    text-decoration: underline blue;
+   
+}
+
+menu{
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+   
+}
+
+menu > ul > li > a {
+    border-top: 2px solid black;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
 }
